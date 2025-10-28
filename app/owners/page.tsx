@@ -477,7 +477,7 @@ export default function ForOwners() {
                     </motion.div>
                   ))}
                   <p className="text-xs text-cocoon-fog italic">
-                    Note: Figures are illustrative placeholders; replace with actuals.
+                   {/* Note: Figures are illustrative placeholders; replace with actuals. */}
                   </p>
                 </div>
               </motion.div>
