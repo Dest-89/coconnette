@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --cocoon-sage: #6FA890;
+  --cocoon-sand: #E8DCC9;
+  --cocoon-terra: #C06B3E;
+  --cocoon-porcelain: #F7F4EF;
+  --cocoon-charcoal: #2E2E2E;
+  --cocoon-fog: #9AA3A7;
+}
+
+.container-custom {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container-custom {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-custom {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.text-balance {
+  text-wrap: balance;
+}
