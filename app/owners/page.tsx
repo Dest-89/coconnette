@@ -320,7 +320,7 @@ export default function ForOwners() {
               ))}
             </motion.div>
             <p className="text-xs text-cocoon-fog text-center mt-6">
-              *Illustrative for design; replace with real data later
+              /* Illustrative for design; replace with real data later */
             </p>
           </div>
         </section>
